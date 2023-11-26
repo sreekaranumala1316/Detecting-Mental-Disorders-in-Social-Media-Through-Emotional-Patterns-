@@ -51,7 +51,7 @@ def generate_wordcloud(text, title):
     # Add your wordcloud generation code here
     wordcloud = WordCloud(width=800, height=400, background_color='white').generate(text)
     st.title(title)
-    st.image(wordcloud.to_array(), use_container_width=True)
+    st.image(wordcloud.to_array())
 
 # Dimension Reduction function
 def dimension_reduction(text_data):
