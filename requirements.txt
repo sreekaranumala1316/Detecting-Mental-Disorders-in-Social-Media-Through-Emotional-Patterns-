@@ -1,0 +1,8 @@
+streamlit
+pandas
+numpy
+plotly
+wordcloud
+scikit-learn
+torch
+transformers
