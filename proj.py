@@ -69,7 +69,7 @@ def dimension_reduction(text_data):
 
 # Streamlit app
 def main():
-    st.title("Depression Detection in Social Media")
+    st.title("Detecting Mental Disorders in Social Media Through Emotional Patterns – The case of Anorexia and Depression")
 
     # Upload datasets
     st.sidebar.header("Upload Datasets")
